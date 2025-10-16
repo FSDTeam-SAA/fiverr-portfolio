@@ -1,6 +1,6 @@
-import Hero from "@/component/home/hero";
-import OurServices from "@/component/our-services/our-services";
-import WhyChooseUs from "@/component/why-choose-us/why-choose-us";
+import Hero from "@/components/home/hero";
+import OurServices from "@/components/our-services/our-services";
+import WhyChooseUs from "@/components/why-choose-us/why-choose-us";
 
 export default function Home() {
   return (
