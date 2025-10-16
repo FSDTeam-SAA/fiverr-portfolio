@@ -28,17 +28,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased border border-blue-500`}
       >
         <div
-          className="absolute inset-0 z-0"
+          className="absolute inset-0 z-0 "
           style={{
             background:
               "radial-gradient(125% 125% at 60% 135%, #fff 50%, #7ebce2ac 100%)",
           }}
         >
           <Navbar />
+          <main className="overflow-x-hidden">
+
           {children}
+          </main>
           <Footer />
         </div>
       </body>

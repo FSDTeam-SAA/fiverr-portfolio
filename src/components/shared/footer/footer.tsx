@@ -7,7 +7,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-[#a9e9f6] py-16">
-      <div className="container grid grid-cols-1 md:grid-cols-4 gap-16">
+      <div className="container grid grid-cols-1 md:grid-cols-4 gap-8 lg:gap-16">
         {/* Logo and email */}
         <div className="space-y-4">
           <Link href={"/"}>
@@ -55,7 +55,7 @@ const Footer = () => {
         </div>
 
         {/* Quick Links */}
-        <div className="flex flex-col items-center">
+        <div className="lg:flex flex-col items-center">
           <div className="space-y-2 ">
             <h3 className="font-bold text-lg">Quick Links</h3>
             <ul className="space-y-1 ">
