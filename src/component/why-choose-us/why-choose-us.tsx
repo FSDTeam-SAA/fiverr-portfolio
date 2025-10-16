@@ -4,7 +4,7 @@ import { Award, Clock4, ThumbsUp } from "lucide-react";
 
 const WhyChooseUs = () => {
   return (
-    <div>
+    <div className="container">
       <div className="text-center space-y-3">
         <h1 className="font-bold text-blue-600 text-lg opacity-85 mb-8">
           {" "}
@@ -14,7 +14,7 @@ const WhyChooseUs = () => {
           Your Trusted{" "}
           <span className="text-blue-600 opacity-85">AI Partner</span> on Fiverr
         </p>
-        <p className="lg:max-w-2xl mx-auto">
+        <p className="lg:max-w-2xl mx-auto opacity-80">
           With over 5 years of experience in AI development and 250+ satisfied
           clients, we deliver exceptional results that exceed expectations.
         </p>
