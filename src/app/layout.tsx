@@ -26,24 +26,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html className="scroll-smooth" lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased border border-blue-500`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Navbar />
         <div
-          className="absolute inset-0 z-0 "
+          className="absolute inset-0 -z-10"
           style={{
             background:
               "radial-gradient(125% 125% at 60% 135%, #fff 50%, #7ebce2ac 100%)",
           }}
-        >
-          <Navbar />
-          <main className="overflow-x-hidden">
-
-          {children}
-          </main>
-          <Footer />
-        </div>
+        ></div>
+        <main className="overflow-x-hidden">{children}</main>
+        <Footer />
       </body>
     </html>
   );

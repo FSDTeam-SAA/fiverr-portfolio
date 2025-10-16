@@ -4,7 +4,7 @@ import { TestimonialsShowcase } from "./testimonials-showcase";
 
 const TestimonialSection = () => {
   return (
-    <div className="container lg:px-20 !-mt-5">
+    <div id="reviews" className="container lg:px-20 !-mt-5">
       <div className="flex flex-col lg:flex-row items-center justify-between">
         <TestimonialsText />
         <div className="lg:max-w-2xl">

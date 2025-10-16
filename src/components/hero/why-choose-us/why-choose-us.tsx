@@ -4,7 +4,7 @@ import { Award, Clock4, ThumbsUp } from "lucide-react";
 
 const WhyChooseUs = () => {
   return (
-    <div className="container">
+    <div id="services" className="container">
       <div className="text-center space-y-3">
         <h1 className="font-bold text-blue-600 text-lg opacity-85 mb-8">
           {" "}

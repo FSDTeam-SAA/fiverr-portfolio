@@ -9,10 +9,10 @@ import { navLinks } from "@/utils/navLinks";
 const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 backdrop-blur-md">
-      <div className="container mx-auto h-16 lg:h-24">
+      <div className="container mx-auto h-16 lg:h-24 ">
         <div className="flex items-center justify-between h-full">
           {/* logo */}
-          <Link href={'/'}>
+          <Link href={"/"}>
             <div className="flex-shrink-0">
               <Image
                 src={`https://apporeo.agency/assets/Rectangle20-CN8pI3ef.png`}
