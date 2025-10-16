@@ -47,7 +47,7 @@ const teamMembers: TeamMember[] = [
 export function TeamCarousel() {
   const [position, setPosition] = useState(0)
   const containerRef = useRef<HTMLDivElement>(null)
-  const cardWidth = 280 // Width of each card including gap
+  const cardWidth = 290 // Width of each card including gap
   const speed = 0.6 // Pixels per frame
 
   // Create infinite loop by duplicating items
