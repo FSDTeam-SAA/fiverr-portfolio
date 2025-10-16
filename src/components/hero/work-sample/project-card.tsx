@@ -17,7 +17,7 @@ const ProjectCard = () => {
   }, []);
 
   return (
-    <div className="transition-all duration-300 ease-out hover:scale-105 hover:shadow-lg transform-gpu overflow-hidden">
+    <div className="transition-all duration-300 ease-out hover:scale-105 hover:shadow-lg overflow-hidden">
       <div className="overflow-hidden rounded-t-lg">
         <Image
           src={`https://i.ibb.co/XZmVZKjv/Nutra-AI-App003.jpg`}
