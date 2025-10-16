@@ -3,7 +3,7 @@ import { TeamCarousel } from "./team-carousel";
 
 const OurTeam = () => {
   return (
-    <div className="mt-10">
+    <div id="teams" className="mt-10">
       <div className="text-center space-y-3">
         <h1 className="font-bold text-blue-600 text-lg opacity-85 mb-8">
           {" "}

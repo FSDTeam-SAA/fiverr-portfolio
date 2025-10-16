@@ -1,22 +1,22 @@
 export const navLinks = [
     {
       label: "Home",
-      link: "/",
+      link: "#home",
     },
     {
       label: "Services",
-      link: "/services",
+      link: "#services",
     },
     {
       label: "Portfolio",
-      link: "/portfolio",
+      link: "#portfolio",
     },
     {
       label: "Teams",
-      link: "/teams",
+      link: "#teams",
     },
     {
       label: "Reviews",
-      link: "/reviews",
+      link: "#reviews",
     },
   ];

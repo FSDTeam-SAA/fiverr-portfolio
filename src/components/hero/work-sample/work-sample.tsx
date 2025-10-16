@@ -3,7 +3,7 @@ import ProjectCard from "./project-card";
 
 const WorkSample = () => {
   return (
-    <div className="container">
+    <div id="portfolio" className="container">
       <div className="text-center space-y-3">
         <h1 className="font-bold text-blue-600 text-lg opacity-85 mb-8">
           {" "}

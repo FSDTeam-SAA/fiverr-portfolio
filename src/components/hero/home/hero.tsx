@@ -6,7 +6,7 @@ import HeroImg from "./hero-img";
 
 const Hero = () => {
   return (
-    <div className="container min-h-[calc(100vh-300px)] flex flex-col items-center justify-center mt-8 lg:mt-0">
+    <div id="hero" className="container min-h-[calc(100vh-300px)] flex flex-col items-center justify-center mt-8 lg:mt-0">
       <div className="flex flex-col lg:flex-row items-center justify-between w-full">
         <HeroText />
 
