@@ -30,7 +30,7 @@ const ChooseUsCard = ({
   }, []);
 
   return (
-    <div className={`bg-[#${bgColor}] p-5 rounded-md text-center`}>
+    <div className={`${bgColor} p-5 rounded-md text-center`}>
       <div
         data-aos={animateType}
         data-aos-delay="400"

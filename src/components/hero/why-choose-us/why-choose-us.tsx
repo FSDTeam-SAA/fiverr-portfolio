@@ -22,7 +22,7 @@ const WhyChooseUs = () => {
 
       <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
         <ChooseUsCard
-          bgColor="1870bb"
+          bgColor="bg-[#1870bb]"
           title="Expertise & Experience"
           icon={<Award className="text-blue-500" />}
           details="Your go-to AI partner on Fiverr, delivering custom solutions in chatbots, models, automation, and data-driven innovation worldwide."
@@ -30,7 +30,7 @@ const WhyChooseUs = () => {
         />
 
         <ChooseUsCard
-          bgColor="22bde5"
+          bgColor="bg-[#22bde5]"
           title="100% Client Satisfaction"
           icon={<ThumbsUp className="text-blue-500" />}
           details="Proven track record of consistently exceeding client expectations with top-quality AI, app, and web solutions tailored to your goals."
@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
         />
 
         <ChooseUsCard
-          bgColor="1870bb"
+          bgColor="bg-[#1870bb]"
           title="Timely Delivery"
           icon={<Clock4 className="text-blue-500" />}
           details="Committed to delivering high-quality AI, app, and web projects on schedule—every time, without compromising on performance or precision."
