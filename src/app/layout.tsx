@@ -33,7 +33,7 @@ export default function RootLayout({
           className="absolute inset-0 z-0"
           style={{
             background:
-              "radial-gradient(125% 125% at 50% 100%, #fff 20%, #7ebce2da 100%)",
+              "radial-gradient(125% 125% at 60% 135%, #fff 50%, #7ebce2ac 100%)",
           }}
         >
           <Navbar />
